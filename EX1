@@ -1,0 +1,5 @@
+SELECT ProductID as 'Identificação do Produto',
+		Quantity as 'Quantidade'
+FROM OrderDetails 
+WHERE Quantity > 15
+AND ProductID > 10;
