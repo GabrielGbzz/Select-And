@@ -3,3 +3,4 @@ SELECT ProductID as 'Identificação do Produto',
 FROM OrderDetails 
 WHERE Quantity > 15
 AND ProductID > 10;
+ORDER BY OrderDetailID;
