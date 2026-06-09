@@ -3,3 +3,4 @@ SELECT OrderID as 'Identidade de Ordem',
 FROM OrderDetails
 WHERE Quantity > 20
 AND OrderID < 100;
+ORDER BY ProductID;
