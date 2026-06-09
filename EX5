@@ -1,0 +1,6 @@
+SELECT *
+FROM OrderDetails
+WHERE Quantity < 12
+AND OrderID >=100
+AND OrderID <=200
+ORDER BY ProductID
