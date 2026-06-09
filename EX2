@@ -1,1 +1,5 @@
-
+SELECT OrderID as 'Identidade de Ordem',
+		Quantity as 'Quantidade'
+FROM OrderDetails
+WHERE Quantity > 20
+AND OrderID < 100;
