@@ -1,0 +1,5 @@
+SELECT *
+FROM OrderDetails
+WHERE Quantity BETWEEN 10 AND 20
+AND OrderID = 300
+ORDER BY OrderDetailID
