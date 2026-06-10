@@ -1,0 +1,5 @@
+SELECT *
+FROM OrderDetails
+WHERE OrderID < 100
+AND ProdutID BETWEEN 10 AND 20
+ORDER By OrderDetailID;
