@@ -1,0 +1,5 @@
+SELECT *
+FROM OrderDetails
+WHERE OrderID = 350
+AND Quantity > 30
+ORDER BY ProductID
