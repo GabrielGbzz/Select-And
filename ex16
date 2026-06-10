@@ -1,0 +1,5 @@
+SELECT *
+FROM OrderDetails
+WHERE Quantity < 20
+AND ProductID %10 = 5
+ORDER BY OrderID;
