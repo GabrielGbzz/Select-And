@@ -1,0 +1,5 @@
+SELECT *
+FROM OrderDetails
+WHERE Quantity
+AND OrderDetailID %10 = 4
+ORDER By OrderID;
