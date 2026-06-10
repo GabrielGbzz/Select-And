@@ -1,0 +1,5 @@
+SELECT *
+FROM OrderDetails
+WHERE ProductID %10 = 0
+AND OrderDetailID %2 = 0
+ORDER BY OrderID
